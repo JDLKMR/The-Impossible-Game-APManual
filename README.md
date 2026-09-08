@@ -1,1 +1,1 @@
-# The-Impossible-Game-Manual-APWorld
+# The Impossible Game Manual APWorld
