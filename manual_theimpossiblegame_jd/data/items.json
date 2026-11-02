@@ -1,0 +1,85 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+  "data": [
+    {
+      "count": 1,
+      "name": "Original Level",
+      "category": [
+        "Level Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Level 1 - Fire Aura",
+      "category": [
+        "Level Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Level 2 - Chaoz Fantasy",
+      "category": [
+        "Level Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Level 3 - Heaven",
+      "category": [
+        "Level Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Level 4 - Phazd",
+      "category": [
+        "Level Unlocks"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Original Level Completed",
+      "category": [
+        "Completed Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Level 1 - Fire Aura Completed",
+      "category": [
+        "Completed Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Level 2 - Chaoz Fantasy Completed",
+      "category": [
+        "Completed Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Level 3 - Heaven Completed",
+      "category": [
+        "Completed Levels"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Level 4 - Phazd Completed",
+      "category": [
+        "Completed Levels"
+      ],
+      "progression": true
+    }
+  ]
+}

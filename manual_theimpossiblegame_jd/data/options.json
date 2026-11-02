@@ -1,0 +1,47 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+    "core": {
+        "goal":{
+            "_comment": [
+                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
+            ],
+            "display_name": "The End Objective",
+            "description": "How to End your Randomized playthrough.",
+            "aliases": {"easiest": 0},
+            "hidden": false
+        },
+        "death_link": {
+            "default": false
+        },
+        "filler_traps": {
+            "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
+            "values": {
+                "recommended": 20
+            }
+        }
+    },
+    "user": {
+        "starting_level": {
+            "display_name": "Starting Level",
+            "description": "Determines which level is unlocked from the start.",
+			"type": "Choice",
+            "values": {
+                "original_level": 0,
+                "level_1_fire_aura": 1,
+                "level_2_chaoz_fantasy": 2,
+                "level_3_heaven": 3,
+                "level_4_phazd": 4
+            },
+            "default": 0,
+			"group": "Level Settings"
+        },
+		"include_practice_mode": {
+			"display_name": "Include Practice Mode",
+			"description": "Include checks for completing levels in Practice Mode.",
+			"type": "Toggle",
+			"default": false,
+			"group": "Level Settings"
+		}
+	}
+}

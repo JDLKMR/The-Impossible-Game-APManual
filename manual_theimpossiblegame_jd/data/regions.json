@@ -1,0 +1,23 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+  "Original Level": {
+    "connects_to": [],
+    "requires": "|Original Level|"
+  },
+  "Level 1 - Fire Aura": {
+    "connects_to": [],
+    "requires": "|Level 1 - Fire Aura|"
+  },
+  "Level 2 - Chaoz Fantasy": {
+    "connects_to": [],
+    "requires": "|Level 2 - Chaoz Fantasy|"
+  },
+  "Level 3 - Heaven": {
+    "connects_to": [],
+    "requires": "|Level 3 - Heaven|"
+  },
+  "Level 4 - Phazd": {
+    "connects_to": [],
+    "requires": "|Level 4 - Phazd|"
+  }
+}

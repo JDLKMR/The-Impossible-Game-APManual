@@ -1,0 +1,163 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+  "data": [
+    {
+      "name": "Original Level Completed (Practice Mode)",
+      "region": "Original Level",
+      "category": [
+        "Level Completion (Practice Mode)"
+      ],
+      "requires": "",
+      "sort-key": "0"
+    },
+    {
+      "name": "Original Level Completed",
+      "region": "Original Level",
+      "category": [
+        "Level Completion"
+      ],
+      "requires": "",
+      "sort-key": "0-0"
+    },
+    {
+      "name": "(EVENT) Original Level Completed",
+      "region": "Original Level",
+      "category": [
+        "Level Completion"
+      ],
+      "requires": "",
+      "place_item": [
+        "Original Level Completed"
+      ],
+      "sort-key": "0-1"
+    },
+    {
+      "name": "Level 1 - Fire Aura Completed (Practice Mode)",
+      "region": "Level 1 - Fire Aura",
+      "category": [
+        "Level Completion (Practice Mode)"
+      ],
+      "requires": "",
+      "sort-key": "1"
+    },
+    {
+      "name": "Level 1 - Fire Aura Completed",
+      "region": "Level 1 - Fire Aura",
+      "category": [
+        "Level Completion"
+      ],
+      "requires": "",
+      "sort-key": "1-0"
+    },
+    {
+      "name": "(EVENT) Level 1 - Fire Aura Completed",
+      "region": "Level 1 - Fire Aura",
+      "category": [
+        "Level Completion"
+      ],
+      "requires": "",
+      "place_item": [
+        "Level 1 - Fire Aura Completed"
+      ],
+      "sort-key": "1-1"
+    },
+    {
+      "name": "Level 2 - Chaoz Fantasy Completed (Practice Mode)",
+      "region": "Level 2 - Chaoz Fantasy",
+      "category": [
+        "Level Completion (Practice Mode)"
+      ],
+      "requires": "",
+      "sort-key": "2"
+    },
+    {
+      "name": "Level 2 - Chaoz Fantasy Completed",
+      "region": "Level 2 - Chaoz Fantasy",
+      "category": [
+        "Level Completion"
+      ],
+      "requires": "",
+      "sort-key": "2-0"
+    },
+    {
+      "name": "(EVENT) Level 2 - Chaoz Fantasy Completed",
+      "region": "Level 2 - Chaoz Fantasy",
+      "category": [
+        "Level Completion"
+      ],
+      "requires": "",
+      "place_item": [
+        "Level 2 - Chaoz Fantasy Completed"
+      ],
+      "sort-key": "2-1"
+    },
+    {
+      "name": "Level 3 - Heaven Completed (Practice Mode)",
+      "region": "Level 3 - Heaven",
+      "category": [
+        "Level Completion (Practice Mode)"
+      ],
+      "requires": "",
+      "sort-key": "3"
+    },
+    {
+      "name": "Level 3 - Heaven Completed",
+      "region": "Level 3 - Heaven",
+      "category": [
+        "Level Completion"
+      ],
+      "requires": "",
+      "sort-key": "3-0"
+    },
+    {
+      "name": "(EVENT) Level 3 - Heaven Completed",
+      "region": "Level 3 - Heaven",
+      "category": [
+        "Level Completion"
+      ],
+      "requires": "",
+      "place_item": [
+        "Level 3 - Heaven Completed"
+      ],
+      "sort-key": "3-1"
+    },
+    {
+      "name": "Level 4 - Phazd Completed (Practice Mode)",
+      "region": "Level 4 - Phazd",
+      "category": [
+        "Level Completion (Practice Mode)"
+      ],
+      "requires": "",
+      "sort-key": "4"
+    },
+    {
+      "name": "Level 4 - Phazd Completed",
+      "region": "Level 4 - Phazd",
+      "category": [
+        "Level Completion"
+      ],
+      "requires": "",
+      "sort-key": "4-0"
+    },
+    {
+      "name": "(EVENT) Level 4 - Phazd Completed",
+      "region": "Level 4 - Phazd",
+      "category": [
+        "Level Completion"
+      ],
+      "requires": "",
+      "place_item": [
+        "Level 4 - Phazd Completed"
+      ],
+      "sort-key": "4-1"
+    },
+    {
+      "name": "All Levels Completed",
+      "victory": true,
+      "category": [
+        "Victory"
+      ],
+      "requires": "|Original Level Completed| AND |Level 1 - Fire Aura Completed| AND |Level 2 - Chaoz Fantasy Completed| AND |Level 3 - Heaven Completed| AND |Level 4 - Phazd Completed|"
+    }
+  ]
+}
